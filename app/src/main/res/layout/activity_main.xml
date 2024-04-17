@@ -7,11 +7,92 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/telaIncialImageBttn"
-        android:layout_width="734dp"
-        android:layout_height="414dp"
+        android:id="@+id/iniciar_img_bttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sem_t_tulo" />
+        app:layout_constraintVertical_bias="0.658"
+        app:srcCompat="@drawable/imagebuttoncomeco" />
+
+    <ImageView
+        android:id="@+id/title_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/iniciar_img_bttn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/jogo_da_casa_mal_assombrada" />
+
+    <ImageView
+        android:id="@+id/doll_img"
+        android:layout_width="52dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginBottom="102dp"
+        app:layout_constraintBottom_toTopOf="@+id/iniciar_img_bttn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/path_0__3__1" />
+
+    <ImageView
+        android:id="@+id/owners_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iniciar_img_bttn"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/imagedesenvolvidopor" />
+
+    <ImageButton
+        android:id="@+id/whats_img_bttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iniciar_img_bttn"
+        app:srcCompat="@drawable/imagebuttonwhats" />
+
+    <ImageButton
+        android:id="@+id/config_img_bttn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.418"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iniciar_img_bttn"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/imagebuttonconfig" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iniciar_img_bttn"
+        app:layout_constraintVertical_bias="0.428"
+        app:srcCompat="@drawable/imagebuttoninsta" />
 </androidx.constraintlayout.widget.ConstraintLayout>

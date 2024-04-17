@@ -16,13 +16,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     protected void imageBttn() {
-        ImageButton principal = (ImageButton) findViewById(R.id.telaIncialImageBttn);
+        //ImageButton principal = (ImageButton) findViewById(R.id.telaIncialImageBttn);
 
-        ImageButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                
-            }
-        }
+//        ImageButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//            }
+//        }
     }
 }
