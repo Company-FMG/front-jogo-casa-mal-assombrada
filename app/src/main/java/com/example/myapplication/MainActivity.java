@@ -15,14 +15,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    protected void imageBttn() {
-        //ImageButton principal = (ImageButton) findViewById(R.id.telaIncialImageBttn);
+    protected void imagesBttns() {
+        ImageButton principal = (ImageButton) findViewById(R.id.telaIncialImageBttn);
 
-//        ImageButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//            }
-//        }
-    }
+        ImageButton.setOnClickListener(new View.OnClickListener() {
+     
+            //Quando próxima atividade for criada, alterar o x abaixo pelo nome da atividade
+            Intent i = new Intent(this, x.class);
+            principal.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                startActivity(i);
+                }
+            });
+        }
 }
