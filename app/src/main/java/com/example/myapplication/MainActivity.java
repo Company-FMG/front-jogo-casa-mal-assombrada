@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -21,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton.setOnClickListener(new View.OnClickListener() {
      
             //Quando próxima atividade for criada, alterar o x abaixo pelo nome da atividade
-            Intent i = new Intent(this, x.class);
+            Intent i = new Intent(this, OptionsInitalScren.class);
             principal.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/iniciar_img_bttn"
+        android:id="@+id/telaIncialImageBttn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="25dp"
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
-        app:layout_constraintBottom_toTopOf="@+id/iniciar_img_bttn"
+        app:layout_constraintBottom_toTopOf="@+id/telaIncialImageBttn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,12 +37,12 @@
         android:layout_height="47dp"
         android:layout_marginTop="84dp"
         android:layout_marginBottom="102dp"
-        app:layout_constraintBottom_toTopOf="@+id/iniciar_img_bttn"
+        app:layout_constraintBottom_toTopOf="@+id/telaIncialImageBttn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.885"
         app:srcCompat="@drawable/path_0__3__1" />
 
     <ImageView
@@ -55,7 +55,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iniciar_img_bttn"
+        app:layout_constraintTop_toBottomOf="@+id/telaIncialImageBttn"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/imagedesenvolvidopor" />
 
@@ -67,7 +67,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iniciar_img_bttn"
+        app:layout_constraintTop_toBottomOf="@+id/telaIncialImageBttn"
         app:srcCompat="@drawable/imagebuttonwhats" />
 
     <ImageButton
@@ -79,7 +79,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.418"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iniciar_img_bttn"
+        app:layout_constraintTop_toBottomOf="@+id/telaIncialImageBttn"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/imagebuttonconfig" />
 
@@ -92,7 +92,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.576"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iniciar_img_bttn"
+        app:layout_constraintTop_toBottomOf="@+id/telaIncialImageBttn"
         app:layout_constraintVertical_bias="0.428"
         app:srcCompat="@drawable/imagebuttoninsta" />
 </androidx.constraintlayout.widget.ConstraintLayout>
