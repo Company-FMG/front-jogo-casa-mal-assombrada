@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        imagesBttns();
     }
 
     protected void imagesBttns() {
@@ -21,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
         ImageButton.setOnClickListener(new View.OnClickListener() {
      
-            //Quando próxima atividade for criada, alterar o x abaixo pelo nome da atividade
             Intent i = new Intent(this, OptionsInitalScren.class);
             principal.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -29,5 +29,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
                 }
             });
-        }
+        })
+    }
 }
